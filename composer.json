@@ -1,0 +1,20 @@
+{
+	"name": "contentful/php-sdk",
+	"description": "Contentful PHP SDK",
+	"keywords": ["contentful", "php", "sdk"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Pedro Eugenio",
+			"email": "pedro.t.eugenio@gmail.com"
+		}
+	],
+	"require": {
+		"php": ">=5.2.0",
+		"ext-curl": "*",
+		"ext-json": "*"
+	},
+	"autoload": {
+		"classmap": ["src"]
+	}
+}
